@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHerenciaEncapsulacion1.2", "EjemploHerenciaEncapsulacion1.2\EjemploHerenciaEncapsulacion1.2.csproj", "{04FF7C18-EA82-4596-9377-C9AA419F61A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{6898FB65-560E-4B8B-938B-88FAEA653CC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04FF7C18-EA82-4596-9377-C9AA419F61A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04FF7C18-EA82-4596-9377-C9AA419F61A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04FF7C18-EA82-4596-9377-C9AA419F61A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04FF7C18-EA82-4596-9377-C9AA419F61A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6898FB65-560E-4B8B-938B-88FAEA653CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6898FB65-560E-4B8B-938B-88FAEA653CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6898FB65-560E-4B8B-938B-88FAEA653CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6898FB65-560E-4B8B-938B-88FAEA653CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43451021-4D0A-4699-AA59-83551E6848F7}
+	EndGlobalSection
+EndGlobal

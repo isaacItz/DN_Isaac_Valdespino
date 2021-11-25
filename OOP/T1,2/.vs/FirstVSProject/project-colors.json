@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "aece156c-c02f-400f-857d-a8c885345bb8": {
+      "ProjectGuid": "aece156c-c02f-400f-857d-a8c885345bb8",
+      "DisplayName": "AudioManager",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "05c4caac-8f13-4099-8c22-117ac588b4ab": {
+      "ProjectGuid": "05c4caac-8f13-4099-8c22-117ac588b4ab",
+      "DisplayName": "OOP.ConsoleExample",
+      "ColorIndex": 1
+    },
+    "6ab70081-85de-4087-b246-a328677de7ba": {
+      "ProjectGuid": "6ab70081-85de-4087-b246-a328677de7ba",
+      "DisplayName": "OOP.ConsoleExample",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
