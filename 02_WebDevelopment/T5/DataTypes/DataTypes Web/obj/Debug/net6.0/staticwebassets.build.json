@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "xkLOuoGIodRYrwluctWKni6h9c3cEbb3Z/CZOy9X5Eg=",
+  "Source": "DataTypes Web",
+  "BasePath": "_content/DataTypes Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DataTypes Web\\wwwroot",
+      "Source": "DataTypes Web",
+      "ContentRoot": "C:\\Users\\isaac\\source\\repos\\DataTypes\\DataTypes Web\\wwwroot\\",
+      "BasePath": "_content/DataTypes Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\isaac\\source\\repos\\DataTypes\\DataTypes Web\\wwwroot\\dataTypes.js",
+      "SourceId": "DataTypes Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\isaac\\source\\repos\\DataTypes\\DataTypes Web\\wwwroot\\",
+      "BasePath": "_content/DataTypes Web",
+      "RelativePath": "dataTypes.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dataTypes.js"
+    }
+  ]
+}
