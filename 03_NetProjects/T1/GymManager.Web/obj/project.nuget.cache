@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "CCaadeVYKQhFvNQRDKBur/jYzAkMaq6z05deZJ4ijyv68IUT0z5FZlamCbvhf2QtO2YDb3b/s3/s6KRASZa4kg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\isaac\\source\\repos\\GymManager.Web\\GymManager.Web\\GymManager.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\isaac\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\isaac\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
+    "C:\\Users\\isaac\\.nuget\\packages\\microsoft.aspnetcore.razor.runtime\\2.2.0\\microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512",
+    "C:\\Users\\isaac\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
