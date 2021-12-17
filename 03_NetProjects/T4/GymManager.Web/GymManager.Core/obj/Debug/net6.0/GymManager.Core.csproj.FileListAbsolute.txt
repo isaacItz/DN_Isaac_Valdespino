@@ -1,0 +1,12 @@
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.Core\bin\Debug\net6.0\GymManager.Core.deps.json
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.Core\bin\Debug\net6.0\GymManager.Core.dll
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.Core\bin\Debug\net6.0\ref\GymManager.Core.dll
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.Core\bin\Debug\net6.0\GymManager.Core.pdb
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.Core\obj\Debug\net6.0\GymManager.Core.csproj.AssemblyReference.cache
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.Core\obj\Debug\net6.0\GymManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.Core\obj\Debug\net6.0\GymManager.Core.AssemblyInfoInputs.cache
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.Core\obj\Debug\net6.0\GymManager.Core.AssemblyInfo.cs
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.Core\obj\Debug\net6.0\GymManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.Core\obj\Debug\net6.0\GymManager.Core.dll
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.Core\obj\Debug\net6.0\ref\GymManager.Core.dll
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.Core\obj\Debug\net6.0\GymManager.Core.pdb
