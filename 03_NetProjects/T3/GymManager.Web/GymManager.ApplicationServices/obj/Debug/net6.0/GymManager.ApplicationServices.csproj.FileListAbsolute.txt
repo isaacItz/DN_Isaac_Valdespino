@@ -1,0 +1,15 @@
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.ApplicationServices\bin\Debug\net6.0\GymManager.ApplicationServices.deps.json
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.ApplicationServices\bin\Debug\net6.0\GymManager.ApplicationServices.dll
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.ApplicationServices\bin\Debug\net6.0\ref\GymManager.ApplicationServices.dll
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.ApplicationServices\bin\Debug\net6.0\GymManager.ApplicationServices.pdb
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.ApplicationServices\bin\Debug\net6.0\GymManager.Core.dll
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.ApplicationServices\bin\Debug\net6.0\GymManager.Core.pdb
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.ApplicationServices\obj\Debug\net6.0\GymManager.ApplicationServices.csproj.AssemblyReference.cache
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.ApplicationServices\obj\Debug\net6.0\GymManager.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.ApplicationServices\obj\Debug\net6.0\GymManager.ApplicationServices.AssemblyInfoInputs.cache
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.ApplicationServices\obj\Debug\net6.0\GymManager.ApplicationServices.AssemblyInfo.cs
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.ApplicationServices\obj\Debug\net6.0\GymManager.ApplicationServices.csproj.CoreCompileInputs.cache
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.ApplicationServices\obj\Debug\net6.0\GymManager.ApplicationServices.csproj.CopyComplete
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.ApplicationServices\obj\Debug\net6.0\GymManager.ApplicationServices.dll
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.ApplicationServices\obj\Debug\net6.0\ref\GymManager.ApplicationServices.dll
+C:\Users\isaac\source\repos\GymManager.Web\GymManager.ApplicationServices\obj\Debug\net6.0\GymManager.ApplicationServices.pdb
