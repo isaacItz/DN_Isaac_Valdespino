@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f41ce569-4872-48ed-8863-db4b5a756094": {
+      "ProjectGuid": "f41ce569-4872-48ed-8863-db4b5a756094",
+      "DisplayName": "GymManager.Web",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
