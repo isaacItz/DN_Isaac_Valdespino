@@ -1,0 +1,12 @@
+C:\Users\isaac\source\repos\WebApi.WindowsClient\Api.Entities\bin\Debug\net6.0\Api.Entities.deps.json
+C:\Users\isaac\source\repos\WebApi.WindowsClient\Api.Entities\bin\Debug\net6.0\Api.Entities.dll
+C:\Users\isaac\source\repos\WebApi.WindowsClient\Api.Entities\bin\Debug\net6.0\ref\Api.Entities.dll
+C:\Users\isaac\source\repos\WebApi.WindowsClient\Api.Entities\bin\Debug\net6.0\Api.Entities.pdb
+C:\Users\isaac\source\repos\WebApi.WindowsClient\Api.Entities\obj\Debug\net6.0\Api.Entities.csproj.AssemblyReference.cache
+C:\Users\isaac\source\repos\WebApi.WindowsClient\Api.Entities\obj\Debug\net6.0\Api.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isaac\source\repos\WebApi.WindowsClient\Api.Entities\obj\Debug\net6.0\Api.Entities.AssemblyInfoInputs.cache
+C:\Users\isaac\source\repos\WebApi.WindowsClient\Api.Entities\obj\Debug\net6.0\Api.Entities.AssemblyInfo.cs
+C:\Users\isaac\source\repos\WebApi.WindowsClient\Api.Entities\obj\Debug\net6.0\Api.Entities.csproj.CoreCompileInputs.cache
+C:\Users\isaac\source\repos\WebApi.WindowsClient\Api.Entities\obj\Debug\net6.0\Api.Entities.dll
+C:\Users\isaac\source\repos\WebApi.WindowsClient\Api.Entities\obj\Debug\net6.0\ref\Api.Entities.dll
+C:\Users\isaac\source\repos\WebApi.WindowsClient\Api.Entities\obj\Debug\net6.0\Api.Entities.pdb
