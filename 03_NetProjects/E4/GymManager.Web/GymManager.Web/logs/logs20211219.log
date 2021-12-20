@@ -1,0 +1,17 @@
+2021-12-19 23:31:14.728 -06:00 [INF] User profile is available. Using 'C:\Users\isaac\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-19 23:31:15.633 -06:00 [INF] Now listening on: https://localhost:7097
+2021-12-19 23:31:15.633 -06:00 [INF] Now listening on: http://localhost:5097
+2021-12-19 23:31:15.634 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-19 23:31:15.634 -06:00 [INF] Hosting environment: Development
+2021-12-19 23:31:15.634 -06:00 [INF] Content root path: C:\Users\isaac\source\repos\GymManager.Web\GymManager.Web\
+2021-12-19 23:31:19.982 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7097/ - -
+2021-12-19 23:31:20.372 -06:00 [INF] Executing endpoint 'GymManager.Web.Controllers.AttendanceController.Index (GymManager.Web)'
+2021-12-19 23:31:20.456 -06:00 [INF] Route matched with {action = "Index", controller = "Attendance"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GymManager.Web.Controllers.AttendanceController (GymManager.Web).
+2021-12-19 23:31:20.466 -06:00 [WRN] Se ha entrado al index
+2021-12-19 23:31:38.018 -06:00 [INF] Executing ViewResult, running view Index.
+2021-12-19 23:31:43.735 -06:00 [INF] Executed ViewResult - view Index executed in 23251.0431ms.
+2021-12-19 23:31:43.764 -06:00 [INF] Executed action GymManager.Web.Controllers.AttendanceController.Index (GymManager.Web) in 23307.42ms
+2021-12-19 23:31:43.765 -06:00 [INF] Executed endpoint 'GymManager.Web.Controllers.AttendanceController.Index (GymManager.Web)'
+2021-12-19 23:31:43.933 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7097/ - - - 200 - text/html;+charset=utf-8 23959.3147ms
+2021-12-19 23:31:44.776 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - -
+2021-12-19 23:31:44.785 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - - - 200 11948 application/javascript;+charset=utf-8 8.9060ms

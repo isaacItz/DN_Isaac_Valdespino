@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f41ce569-4872-48ed-8863-db4b5a756094": {
+      "ProjectGuid": "f41ce569-4872-48ed-8863-db4b5a756094",
+      "DisplayName": "GymManager.Web",
+      "ColorIndex": 0
+    },
+    "c9bb72a2-ac12-42c6-b252-ff65145ee2d7": {
+      "ProjectGuid": "c9bb72a2-ac12-42c6-b252-ff65145ee2d7",
+      "DisplayName": "GymManager.ApplicationServices",
+      "ColorIndex": 1
+    },
+    "df7edec5-0444-400e-9955-bf78735082c3": {
+      "ProjectGuid": "df7edec5-0444-400e-9955-bf78735082c3",
+      "DisplayName": "GymManager.Core",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
