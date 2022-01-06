@@ -1,4 +1,3 @@
-
 create view user_role as 
 select u.iduser, username, first_name, last_name, role_name 
 from 
