@@ -1,0 +1,12 @@
+/workspace/DataAccessExample/DataAccessExampleCore/bin/Debug/net6.0/DataAccessExampleCore.deps.json
+/workspace/DataAccessExample/DataAccessExampleCore/bin/Debug/net6.0/DataAccessExampleCore.dll
+/workspace/DataAccessExample/DataAccessExampleCore/bin/Debug/net6.0/ref/DataAccessExampleCore.dll
+/workspace/DataAccessExample/DataAccessExampleCore/bin/Debug/net6.0/DataAccessExampleCore.pdb
+/workspace/DataAccessExample/DataAccessExampleCore/obj/Debug/net6.0/DataAccessExampleCore.csproj.AssemblyReference.cache
+/workspace/DataAccessExample/DataAccessExampleCore/obj/Debug/net6.0/DataAccessExampleCore.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/DataAccessExample/DataAccessExampleCore/obj/Debug/net6.0/DataAccessExampleCore.AssemblyInfoInputs.cache
+/workspace/DataAccessExample/DataAccessExampleCore/obj/Debug/net6.0/DataAccessExampleCore.AssemblyInfo.cs
+/workspace/DataAccessExample/DataAccessExampleCore/obj/Debug/net6.0/DataAccessExampleCore.csproj.CoreCompileInputs.cache
+/workspace/DataAccessExample/DataAccessExampleCore/obj/Debug/net6.0/DataAccessExampleCore.dll
+/workspace/DataAccessExample/DataAccessExampleCore/obj/Debug/net6.0/ref/DataAccessExampleCore.dll
+/workspace/DataAccessExample/DataAccessExampleCore/obj/Debug/net6.0/DataAccessExampleCore.pdb

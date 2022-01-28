@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Fw8ETHw8PP6JCjBB44jzWIH1meMcj/yhPsf/R38zKQ0=",
+  "Source": "DataAcsessExample.WebApi",
+  "BasePath": "_content/DataAcsessExample.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
