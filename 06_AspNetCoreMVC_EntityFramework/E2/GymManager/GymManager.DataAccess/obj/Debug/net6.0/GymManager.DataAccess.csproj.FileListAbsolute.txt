@@ -1,0 +1,17 @@
+/workspace/GymManager.Web/GymManager.DataAccess/bin/Debug/net6.0/GymManager.DataAccess.deps.json
+/workspace/GymManager.Web/GymManager.DataAccess/bin/Debug/net6.0/GymManager.DataAccess.dll
+/workspace/GymManager.Web/GymManager.DataAccess/bin/Debug/net6.0/ref/GymManager.DataAccess.dll
+/workspace/GymManager.Web/GymManager.DataAccess/bin/Debug/net6.0/GymManager.DataAccess.pdb
+/workspace/GymManager.Web/GymManager.DataAccess/obj/Debug/net6.0/GymManager.DataAccess.csproj.AssemblyReference.cache
+/workspace/GymManager.Web/GymManager.DataAccess/obj/Debug/net6.0/GymManager.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/GymManager.Web/GymManager.DataAccess/obj/Debug/net6.0/GymManager.DataAccess.AssemblyInfoInputs.cache
+/workspace/GymManager.Web/GymManager.DataAccess/obj/Debug/net6.0/GymManager.DataAccess.AssemblyInfo.cs
+/workspace/GymManager.Web/GymManager.DataAccess/obj/Debug/net6.0/GymManager.DataAccess.csproj.CoreCompileInputs.cache
+/workspace/GymManager.Web/GymManager.DataAccess/obj/Debug/net6.0/GymManager.DataAccess.dll
+/workspace/GymManager.Web/GymManager.DataAccess/obj/Debug/net6.0/ref/GymManager.DataAccess.dll
+/workspace/GymManager.Web/GymManager.DataAccess/obj/Debug/net6.0/GymManager.DataAccess.pdb
+/workspace/GymManager.Web/GymManager.DataAccess/bin/Debug/net6.0/GymManager.DataAccess.runtimeconfig.json
+/workspace/GymManager.Web/GymManager.DataAccess/obj/Debug/net6.0/GymManager.DataAccess.genruntimeconfig.cache
+/workspace/GymManager.Web/GymManager.DataAccess/bin/Debug/net6.0/GymManager.Core.dll
+/workspace/GymManager.Web/GymManager.DataAccess/bin/Debug/net6.0/GymManager.Core.pdb
+/workspace/GymManager.Web/GymManager.DataAccess/obj/Debug/net6.0/GymManager.DataAccess.csproj.CopyComplete
