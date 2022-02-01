@@ -1,0 +1,304 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspace/GymManager.Web/GymManager.Web/GymManager.Web.csproj": {}
+  },
+  "projects": {
+    "/workspace/GymManager.Web/GymManager.ApplicationServices/GymManager.ApplicationServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/GymManager.Web/GymManager.ApplicationServices/GymManager.ApplicationServices.csproj",
+        "projectName": "GymManager.ApplicationServices",
+        "projectPath": "/workspace/GymManager.Web/GymManager.ApplicationServices/GymManager.ApplicationServices.csproj",
+        "packagesPath": "/home/lugo/.nuget/packages/",
+        "outputPath": "/workspace/GymManager.Web/GymManager.ApplicationServices/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lugo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/workspace/GymManager.Web/GymManager.Core/GymManager.Core.csproj": {
+                "projectPath": "/workspace/GymManager.Web/GymManager.Core/GymManager.Core.csproj"
+              },
+              "/workspace/GymManager.Web/GymManager.DataAccess/GymManager.DataAccess.csproj": {
+                "projectPath": "/workspace/GymManager.Web/GymManager.DataAccess/GymManager.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "microsoft.entityframeworkcore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/GymManager.Web/GymManager.Core/GymManager.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/GymManager.Web/GymManager.Core/GymManager.Core.csproj",
+        "projectName": "GymManager.Core",
+        "projectPath": "/workspace/GymManager.Web/GymManager.Core/GymManager.Core.csproj",
+        "packagesPath": "/home/lugo/.nuget/packages/",
+        "outputPath": "/workspace/GymManager.Web/GymManager.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lugo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/GymManager.Web/GymManager.DataAccess/GymManager.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/GymManager.Web/GymManager.DataAccess/GymManager.DataAccess.csproj",
+        "projectName": "GymManager.DataAccess",
+        "projectPath": "/workspace/GymManager.Web/GymManager.DataAccess/GymManager.DataAccess.csproj",
+        "packagesPath": "/home/lugo/.nuget/packages/",
+        "outputPath": "/workspace/GymManager.Web/GymManager.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lugo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/workspace/GymManager.Web/GymManager.Core/GymManager.Core.csproj": {
+                "projectPath": "/workspace/GymManager.Web/GymManager.Core/GymManager.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "microsoft.aspnetcore.identity.entityframeworkcore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/GymManager.Web/GymManager.Web/GymManager.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/GymManager.Web/GymManager.Web/GymManager.Web.csproj",
+        "projectName": "GymManager.Web",
+        "projectPath": "/workspace/GymManager.Web/GymManager.Web/GymManager.Web.csproj",
+        "packagesPath": "/home/lugo/.nuget/packages/",
+        "outputPath": "/workspace/GymManager.Web/GymManager.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lugo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/workspace/GymManager.Web/GymManager.ApplicationServices/GymManager.ApplicationServices.csproj": {
+                "projectPath": "/workspace/GymManager.Web/GymManager.ApplicationServices/GymManager.ApplicationServices.csproj"
+              },
+              "/workspace/GymManager.Web/GymManager.Core/GymManager.Core.csproj": {
+                "projectPath": "/workspace/GymManager.Web/GymManager.Core/GymManager.Core.csproj"
+              },
+              "/workspace/GymManager.Web/GymManager.DataAccess/GymManager.DataAccess.csproj": {
+                "projectPath": "/workspace/GymManager.Web/GymManager.DataAccess/GymManager.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Razor.Runtime": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.1-dev-00241, )"
+            },
+            "Serilog.Settings.AppSettings": {
+              "target": "Package",
+              "version": "[2.2.3-dev-00066, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.1-dev-00947, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

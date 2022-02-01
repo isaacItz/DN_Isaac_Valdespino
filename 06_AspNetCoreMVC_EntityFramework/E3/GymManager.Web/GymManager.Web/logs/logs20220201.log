@@ -1,0 +1,853 @@
+2022-02-01 00:11:49.985 +00:00 [INF] Application is shutting down...
+2022-02-01 02:40:21.943 +00:00 [WRN] Storing keys in a directory '/home/lugo/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2022-02-01 02:40:22.088 +00:00 [INF] User profile is available. Using '/home/lugo/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-02-01 02:40:23.118 +00:00 [INF] Now listening on: https://localhost:7097
+2022-02-01 02:40:23.118 +00:00 [INF] Now listening on: http://localhost:5097
+2022-02-01 02:40:23.119 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-01 02:40:23.119 +00:00 [INF] Hosting environment: Development
+2022-02-01 02:40:23.119 +00:00 [INF] Content root path: /workspace/GymManager.Web/GymManager.Web/
+2022-02-01 02:41:20.344 +00:00 [INF] Application is shutting down...
+2022-02-01 02:49:32.984 +00:00 [WRN] Storing keys in a directory '/home/lugo/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2022-02-01 02:49:33.139 +00:00 [INF] User profile is available. Using '/home/lugo/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-02-01 02:49:34.125 +00:00 [INF] Now listening on: https://localhost:7097
+2022-02-01 02:49:34.125 +00:00 [INF] Now listening on: http://localhost:5097
+2022-02-01 02:49:34.126 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-01 02:49:34.126 +00:00 [INF] Hosting environment: Development
+2022-02-01 02:49:34.126 +00:00 [INF] Content root path: /workspace/GymManager.Web/GymManager.Web/
+2022-02-01 02:50:06.632 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/membershipMembers - -
+2022-02-01 02:50:06.739 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+GymManager.Web.Controllers.MembershipMembers.Error (GymManager.Web)
+GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-01 02:50:06.885 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/membershipMembers - - - 500 - text/html;+charset=utf-8 262.3618ms
+2022-02-01 02:50:09.299 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/favicon.ico - -
+2022-02-01 02:50:12.955 +00:00 [INF] Entity Framework Core 6.0.1 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: ServerVersion 8.0.21-mysql 
+2022-02-01 02:50:14.322 +00:00 [INF] Executed DbCommand (196ms) [Parameters=[@__p_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1
+2022-02-01 02:50:14.761 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`ClaimType`, `a`.`ClaimValue`, `a`.`UserId`
+FROM `AspNetUserClaims` AS `a`
+WHERE `a`.`UserId` = @__user_Id_0
+2022-02-01 02:50:14.811 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/favicon.ico - - - 0 - - 5512.2133ms
+2022-02-01 02:50:25.062 +00:00 [INF] Application is shutting down...
+2022-02-01 02:54:11.701 +00:00 [WRN] Storing keys in a directory '/home/lugo/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2022-02-01 02:54:11.848 +00:00 [INF] User profile is available. Using '/home/lugo/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-02-01 02:54:12.946 +00:00 [INF] Now listening on: https://localhost:7097
+2022-02-01 02:54:12.946 +00:00 [INF] Now listening on: http://localhost:5097
+2022-02-01 02:54:12.949 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-01 02:54:12.949 +00:00 [INF] Hosting environment: Development
+2022-02-01 02:54:12.949 +00:00 [INF] Content root path: /workspace/GymManager.Web/GymManager.Web/
+2022-02-01 02:54:26.759 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/membershipMembers - -
+2022-02-01 02:54:29.857 +00:00 [INF] Entity Framework Core 6.0.1 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: ServerVersion 8.0.21-mysql 
+2022-02-01 02:54:31.065 +00:00 [INF] Executed DbCommand (163ms) [Parameters=[@__p_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1
+2022-02-01 02:54:31.581 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`ClaimType`, `a`.`ClaimValue`, `a`.`UserId`
+FROM `AspNetUserClaims` AS `a`
+WHERE `a`.`UserId` = @__user_Id_0
+2022-02-01 02:54:31.632 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 02:54:31.692 +00:00 [INF] Route matched with {action = "Index", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 02:54:41.987 +00:00 [INF] Executing ViewResult, running view Index.
+2022-02-01 02:54:42.123 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web) in 10416.7907ms
+2022-02-01 02:54:42.124 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 02:54:42.132 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore._Views_MembershipMembers_Index.ExecuteAsync() in /workspace/GymManager.Web/GymManager.Web/Views/MembershipMembers/Index.cshtml:line 30
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-01 02:54:42.328 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/membershipMembers - - - 500 - text/html;+charset=utf-8 15572.3990ms
+2022-02-01 02:56:01.078 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/membershipMembers - -
+2022-02-01 02:56:01.138 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 02:56:01.139 +00:00 [INF] Route matched with {action = "Index", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 02:56:01.876 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web) in 737.161ms
+2022-02-01 02:56:01.879 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 02:56:01.880 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.CompilationFailedException: One or more compilation failures occurred:
+/workspace/GymManager.Web/GymManager.Web/Views/MembershipMembers/Index.cshtml(31,91): error CS1002: Se esperaba ;
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(RazorCodeDocument codeDocument, String generatedCode)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.OnCacheMiss(String normalizedPath)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultRazorPageFactoryProvider.CreateFactory(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.CreateCacheResult(HashSet`1 expirationTokens, String relativePath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.OnCacheMiss(ViewLocationExpanderContext expanderContext, ViewLocationCacheKey cacheKey)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.LocatePageFromViewLocations(ActionContext actionContext, String pageName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewEngines.CompositeViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.FindView(ActionContext actionContext, ViewResult viewResult)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-01 02:56:01.890 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/membershipMembers - - - 500 - text/html;+charset=utf-8 812.4726ms
+2022-02-01 02:56:29.300 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/membershipMembers - -
+2022-02-01 02:56:29.365 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 02:56:29.366 +00:00 [INF] Route matched with {action = "Index", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 02:56:29.667 +00:00 [INF] Executing ViewResult, running view Index.
+2022-02-01 02:56:31.375 +00:00 [INF] Executed ViewResult - view Index executed in 2005.8036ms.
+2022-02-01 02:56:31.376 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web) in 2007.1542ms
+2022-02-01 02:56:31.376 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 02:56:31.377 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/membershipMembers - - - 200 - text/html;+charset=utf-8 2077.1730ms
+2022-02-01 02:56:32.329 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/img/icon.png - -
+2022-02-01 02:56:32.352 +00:00 [INF] The file /img/icon.png was not modified
+2022-02-01 02:56:32.358 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/img/icon.png - - - 304 - image/png 29.0438ms
+2022-02-01 02:56:32.429 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js - -
+2022-02-01 02:56:32.433 +00:00 [INF] The file /bootstrap/js/bootstrap.bundle.min.js was not modified
+2022-02-01 02:56:32.434 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js - - - 304 - application/javascript 4.7708ms
+2022-02-01 02:56:32.441 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/js/moment.js - -
+2022-02-01 02:56:32.447 +00:00 [INF] The file /js/moment.js was not modified
+2022-02-01 02:56:32.447 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/js/moment.js - - - 304 - application/javascript 5.9490ms
+2022-02-01 02:56:32.612 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css - -
+2022-02-01 02:56:32.626 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/css/custom.css - -
+2022-02-01 02:56:32.676 +00:00 [INF] Sending file. Request path: '/css/custom.css'. Physical path: '/workspace/GymManager.Web/GymManager.Web/wwwroot/css/custom.css'
+2022-02-01 02:56:32.676 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/css/custom.css - - - 200 110 text/css 49.7641ms
+2022-02-01 02:56:32.677 +00:00 [INF] Sending file. Request path: '/bootstrap/css/bootstrap.min.css'. Physical path: '/workspace/GymManager.Web/GymManager.Web/wwwroot/bootstrap/css/bootstrap.min.css'
+2022-02-01 02:56:32.679 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css - - - 200 155845 text/css 67.2030ms
+2022-02-01 02:56:34.769 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css.map - -
+2022-02-01 02:56:34.773 +00:00 [INF] The file /bootstrap/css/bootstrap.min.css.map was not modified
+2022-02-01 02:56:34.775 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css.map - - - 304 - text/plain 6.0828ms
+2022-02-01 02:56:35.792 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js.map - -
+2022-02-01 02:56:35.797 +00:00 [INF] The file /bootstrap/js/bootstrap.bundle.min.js.map was not modified
+2022-02-01 02:56:35.799 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js.map - - - 304 - text/plain 6.7100ms
+2022-02-01 02:56:47.789 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/membershipMembers - -
+2022-02-01 02:56:47.792 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 02:56:47.792 +00:00 [INF] Route matched with {action = "Index", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 02:56:48.294 +00:00 [INF] Executing ViewResult, running view Index.
+2022-02-01 02:56:48.349 +00:00 [INF] Executed ViewResult - view Index executed in 550.7725ms.
+2022-02-01 02:56:48.350 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web) in 551.1183ms
+2022-02-01 02:56:48.350 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 02:56:48.350 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/membershipMembers - - - 200 - text/html;+charset=utf-8 561.5273ms
+2022-02-01 02:56:51.038 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js - -
+2022-02-01 02:56:51.041 +00:00 [INF] The file /bootstrap/js/bootstrap.bundle.min.js was not modified
+2022-02-01 02:56:51.041 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js - - - 304 - application/javascript 3.7441ms
+2022-02-01 02:56:51.066 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/js/moment.js - -
+2022-02-01 02:56:51.067 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/img/icon.png - -
+2022-02-01 02:56:51.074 +00:00 [INF] The file /js/moment.js was not modified
+2022-02-01 02:56:51.081 +00:00 [INF] The file /img/icon.png was not modified
+2022-02-01 02:56:51.081 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/img/icon.png - - - 304 - image/png 13.7380ms
+2022-02-01 02:56:51.083 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/js/moment.js - - - 304 - application/javascript 17.0259ms
+2022-02-01 02:56:52.409 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js.map - -
+2022-02-01 02:56:52.413 +00:00 [INF] The file /bootstrap/js/bootstrap.bundle.min.js.map was not modified
+2022-02-01 02:56:52.413 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js.map - - - 304 - text/plain 3.8082ms
+2022-02-01 02:56:53.525 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css.map - -
+2022-02-01 02:56:53.529 +00:00 [INF] The file /bootstrap/css/bootstrap.min.css.map was not modified
+2022-02-01 02:56:53.530 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css.map - - - 304 - text/plain 4.2824ms
+2022-02-01 02:57:03.969 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5097/MembershipMembers/Search application/x-www-form-urlencoded 254
+2022-02-01 02:57:03.976 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5097/MembershipMembers/Search application/x-www-form-urlencoded 254 - 404 0 - 6.5833ms
+2022-02-01 03:04:54.672 +00:00 [INF] Application is shutting down...
+2022-02-01 03:18:05.178 +00:00 [WRN] Storing keys in a directory '/home/lugo/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2022-02-01 03:18:05.304 +00:00 [INF] User profile is available. Using '/home/lugo/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-02-01 03:18:06.249 +00:00 [INF] Now listening on: https://localhost:7097
+2022-02-01 03:18:06.250 +00:00 [INF] Now listening on: http://localhost:5097
+2022-02-01 03:18:06.250 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-01 03:18:06.250 +00:00 [INF] Hosting environment: Development
+2022-02-01 03:18:06.251 +00:00 [INF] Content root path: /workspace/GymManager.Web/GymManager.Web/
+2022-02-01 03:18:28.201 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/MembershipMembers/ - -
+2022-02-01 03:18:29.148 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 03:18:29.173 +00:00 [INF] Route matched with {action = "Index", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 03:18:39.691 +00:00 [INF] Executing ViewResult, running view Index.
+2022-02-01 03:18:42.467 +00:00 [INF] Executed ViewResult - view Index executed in 13269.462ms.
+2022-02-01 03:18:42.470 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web) in 13294.1042ms
+2022-02-01 03:18:42.470 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 03:18:42.484 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/MembershipMembers/ - - - 200 - text/html;+charset=utf-8 14290.3934ms
+2022-02-01 03:18:49.861 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css - -
+2022-02-01 03:18:49.933 +00:00 [INF] Sending file. Request path: '/bootstrap/css/bootstrap.min.css'. Physical path: '/workspace/GymManager.Web/GymManager.Web/wwwroot/bootstrap/css/bootstrap.min.css'
+2022-02-01 03:18:49.933 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css - - - 0 155845 text/css 77.9327ms
+2022-02-01 03:18:50.132 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js.map - -
+2022-02-01 03:18:50.182 +00:00 [INF] The file /bootstrap/js/bootstrap.bundle.min.js.map was not modified
+2022-02-01 03:18:50.184 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js.map - - - 304 - text/plain 51.1893ms
+2022-02-01 03:18:50.988 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/favicon.ico - -
+2022-02-01 03:18:50.996 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/favicon.ico - - - 404 0 - 7.7988ms
+2022-02-01 03:18:53.715 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css.map - -
+2022-02-01 03:18:53.721 +00:00 [INF] The file /bootstrap/css/bootstrap.min.css.map was not modified
+2022-02-01 03:18:53.722 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css.map - - - 304 - text/plain 6.1255ms
+2022-02-01 03:19:00.024 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5097/MembershipMembers/Search application/x-www-form-urlencoded 241
+2022-02-01 03:19:00.029 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web)'
+2022-02-01 03:19:00.140 +00:00 [INF] Route matched with {action = "Search", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(GymManager.Web.Models.MembershipRenewal) on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 03:19:02.514 +00:00 [INF] Entity Framework Core 6.0.1 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: ServerVersion 8.0.21-mysql 
+2022-02-01 03:19:03.441 +00:00 [INF] Executed DbCommand (152ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Date`, `m`.`MemberId`, `m`.`MembershipId`, `m`.`status`
+FROM `MemberMemberships` AS `m`
+2022-02-01 03:19:03.686 +00:00 [INF] Executing RedirectResult, redirecting to /MembershipMembers/index/0?SearchValue=aaa&Members=Id%3A%201,%20%0AMember%3A%20,%20%0AMembership%3A%20.
+2022-02-01 03:19:03.688 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web) in 3545.504ms
+2022-02-01 03:19:03.689 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web)'
+2022-02-01 03:19:03.701 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5097/MembershipMembers/Search application/x-www-form-urlencoded 241 - 302 0 - 3676.9587ms
+2022-02-01 03:19:04.475 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/MembershipMembers/index/0?SearchValue=aaa&Members=Id%3A%201,%20%0AMember%3A%20,%20%0AMembership%3A%20 - -
+2022-02-01 03:19:04.536 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 03:19:04.549 +00:00 [INF] Route matched with {action = "Index", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 03:19:04.551 +00:00 [INF] Executing ViewResult, running view Index.
+2022-02-01 03:19:04.588 +00:00 [INF] Executed ViewResult - view Index executed in 37.1235ms.
+2022-02-01 03:19:04.588 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web) in 38.6638ms
+2022-02-01 03:19:04.588 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 03:19:04.590 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/MembershipMembers/index/0?SearchValue=aaa&Members=Id%3A%201,%20%0AMember%3A%20,%20%0AMembership%3A%20 - - - 200 - text/html;+charset=utf-8 115.1934ms
+2022-02-01 03:19:07.331 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/css/custom.css - -
+2022-02-01 03:19:07.361 +00:00 [INF] Sending file. Request path: '/css/custom.css'. Physical path: '/workspace/GymManager.Web/GymManager.Web/wwwroot/css/custom.css'
+2022-02-01 03:19:07.362 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/css/custom.css - - - 200 110 text/css 30.8658ms
+2022-02-01 03:19:07.776 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js.map - -
+2022-02-01 03:19:07.779 +00:00 [INF] The file /bootstrap/js/bootstrap.bundle.min.js.map was not modified
+2022-02-01 03:19:07.780 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js.map - - - 304 - text/plain 3.5107ms
+2022-02-01 03:19:11.491 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css.map - -
+2022-02-01 03:19:11.494 +00:00 [INF] The file /bootstrap/css/bootstrap.min.css.map was not modified
+2022-02-01 03:19:11.494 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css.map - - - 304 - text/plain 3.5969ms
+2022-02-01 03:20:44.521 +00:00 [INF] Application is shutting down...
+2022-02-01 03:21:02.583 +00:00 [WRN] Storing keys in a directory '/home/lugo/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2022-02-01 03:21:02.726 +00:00 [INF] User profile is available. Using '/home/lugo/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-02-01 03:21:04.019 +00:00 [INF] Now listening on: https://localhost:7097
+2022-02-01 03:21:04.019 +00:00 [INF] Now listening on: http://localhost:5097
+2022-02-01 03:21:04.020 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-01 03:21:04.020 +00:00 [INF] Hosting environment: Development
+2022-02-01 03:21:04.021 +00:00 [INF] Content root path: /workspace/GymManager.Web/GymManager.Web/
+2022-02-01 03:21:15.876 +00:00 [INF] Application is shutting down...
+2022-02-01 03:21:31.327 +00:00 [WRN] Storing keys in a directory '/home/lugo/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2022-02-01 03:21:31.488 +00:00 [INF] User profile is available. Using '/home/lugo/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-02-01 03:21:32.580 +00:00 [INF] Now listening on: https://localhost:7097
+2022-02-01 03:21:32.583 +00:00 [INF] Now listening on: http://localhost:5097
+2022-02-01 03:21:32.586 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-01 03:21:32.588 +00:00 [INF] Hosting environment: Development
+2022-02-01 03:21:32.588 +00:00 [INF] Content root path: /workspace/GymManager.Web/GymManager.Web/
+2022-02-01 03:35:06.403 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5097/MembershipMembers/Search application/x-www-form-urlencoded 242
+2022-02-01 03:35:09.954 +00:00 [INF] Entity Framework Core 6.0.1 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: ServerVersion 8.0.21-mysql 
+2022-02-01 03:35:11.242 +00:00 [INF] Executed DbCommand (208ms) [Parameters=[@__p_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1
+2022-02-01 03:35:11.696 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`ClaimType`, `a`.`ClaimValue`, `a`.`UserId`
+FROM `AspNetUserClaims` AS `a`
+WHERE `a`.`UserId` = @__user_Id_0
+2022-02-01 03:35:11.730 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web)'
+2022-02-01 03:35:11.819 +00:00 [INF] Route matched with {action = "Search", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(GymManager.Web.Models.MembershipRenewal) on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 03:35:11.949 +00:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Date`, `m`.`MemberId`, `m`.`MembershipId`, `m`.`status`
+FROM `MemberMemberships` AS `m`
+2022-02-01 03:35:12.095 +00:00 [INF] Executing RedirectResult, redirecting to /MembershipMembers/index/0?SearchValue=hola&Members=Id%3A%201,%20%0AMember%3A%20,%20%0AMembership%3A%20.
+2022-02-01 03:35:12.114 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web) in 282.761ms
+2022-02-01 03:35:12.117 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web)'
+2022-02-01 03:35:12.158 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5097/MembershipMembers/Search application/x-www-form-urlencoded 242 - 302 0 - 5768.0933ms
+2022-02-01 03:35:13.817 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/MembershipMembers/index/0?SearchValue=hola&Members=Id%3A%201,%20%0AMember%3A%20,%20%0AMembership%3A%20 - -
+2022-02-01 03:35:13.889 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 03:35:13.894 +00:00 [INF] Route matched with {action = "Index", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 03:35:24.350 +00:00 [INF] Executing ViewResult, running view Index.
+2022-02-01 03:35:27.037 +00:00 [INF] Executed ViewResult - view Index executed in 13138.1769ms.
+2022-02-01 03:35:27.038 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web) in 13143.8948ms
+2022-02-01 03:35:27.039 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 03:35:27.044 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/MembershipMembers/index/0?SearchValue=hola&Members=Id%3A%201,%20%0AMember%3A%20,%20%0AMembership%3A%20 - - - 200 - text/html;+charset=utf-8 13228.2854ms
+2022-02-01 03:35:32.028 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/css/custom.css - -
+2022-02-01 03:35:32.109 +00:00 [INF] Sending file. Request path: '/css/custom.css'. Physical path: '/workspace/GymManager.Web/GymManager.Web/wwwroot/css/custom.css'
+2022-02-01 03:35:32.111 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/css/custom.css - - - 200 110 text/css 82.9181ms
+2022-02-01 03:35:32.636 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js.map - -
+2022-02-01 03:35:32.649 +00:00 [INF] The file /bootstrap/js/bootstrap.bundle.min.js.map was not modified
+2022-02-01 03:35:32.652 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js.map - - - 304 - text/plain 15.5756ms
+2022-02-01 03:35:36.097 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css.map - -
+2022-02-01 03:35:36.102 +00:00 [INF] The file /bootstrap/css/bootstrap.min.css.map was not modified
+2022-02-01 03:35:36.108 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css.map - - - 304 - text/plain 11.0939ms
+2022-02-01 03:39:48.989 +00:00 [INF] Application is shutting down...
+2022-02-01 03:40:26.800 +00:00 [WRN] Storing keys in a directory '/home/lugo/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2022-02-01 03:40:26.921 +00:00 [INF] User profile is available. Using '/home/lugo/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-02-01 03:40:28.233 +00:00 [INF] Now listening on: https://localhost:7097
+2022-02-01 03:40:28.233 +00:00 [INF] Now listening on: http://localhost:5097
+2022-02-01 03:40:28.234 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-01 03:40:28.234 +00:00 [INF] Hosting environment: Development
+2022-02-01 03:40:28.234 +00:00 [INF] Content root path: /workspace/GymManager.Web/GymManager.Web/
+2022-02-01 03:41:52.388 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5097/MembershipMembers/Search application/x-www-form-urlencoded 242
+2022-02-01 03:41:53.321 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web)'
+2022-02-01 03:41:53.416 +00:00 [INF] Route matched with {action = "Search", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(GymManager.Web.Models.MembershipRenewal) on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 03:41:55.675 +00:00 [INF] Entity Framework Core 6.0.1 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: ServerVersion 8.0.21-mysql 
+2022-02-01 03:41:56.434 +00:00 [INF] Executed DbCommand (112ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Date`, `m`.`MemberId`, `m`.`MembershipId`, `m`.`status`
+FROM `MemberMemberships` AS `m`
+2022-02-01 03:41:56.662 +00:00 [INF] Executing RedirectResult, redirecting to /MembershipMembers/index/0?SearchValue=hola&Members=Id%3A%201,%20%0AMember%3A%20,%20%0AMembership%3A%20.
+2022-02-01 03:41:56.676 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web) in 3247.5038ms
+2022-02-01 03:41:56.678 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web)'
+2022-02-01 03:41:56.703 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5097/MembershipMembers/Search application/x-www-form-urlencoded 242 - 302 0 - 4325.6435ms
+2022-02-01 03:41:56.761 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/MembershipMembers/index/0?SearchValue=hola&Members=Id%3A%201,%20%0AMember%3A%20,%20%0AMembership%3A%20 - -
+2022-02-01 03:41:56.812 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 03:41:56.818 +00:00 [INF] Route matched with {action = "Index", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 03:42:06.916 +00:00 [INF] Executing ViewResult, running view Index.
+2022-02-01 03:42:09.251 +00:00 [INF] Executed ViewResult - view Index executed in 12427.4293ms.
+2022-02-01 03:42:09.252 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web) in 12431.3405ms
+2022-02-01 03:42:09.252 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 03:42:09.257 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/MembershipMembers/index/0?SearchValue=hola&Members=Id%3A%201,%20%0AMember%3A%20,%20%0AMembership%3A%20 - - - 200 - text/html;+charset=utf-8 12495.6338ms
+2022-02-01 03:42:14.275 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js.map - -
+2022-02-01 03:42:14.340 +00:00 [INF] The file /bootstrap/js/bootstrap.bundle.min.js.map was not modified
+2022-02-01 03:42:14.344 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js.map - - - 304 - text/plain 69.1551ms
+2022-02-01 03:42:17.425 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css.map - -
+2022-02-01 03:42:17.429 +00:00 [INF] The file /bootstrap/css/bootstrap.min.css.map was not modified
+2022-02-01 03:42:17.431 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css.map - - - 304 - text/plain 5.8507ms
+2022-02-01 03:42:59.750 +00:00 [INF] Application is shutting down...
+2022-02-01 03:43:47.792 +00:00 [WRN] Storing keys in a directory '/home/lugo/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2022-02-01 03:43:47.935 +00:00 [INF] User profile is available. Using '/home/lugo/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-02-01 03:43:49.302 +00:00 [INF] Now listening on: https://localhost:7097
+2022-02-01 03:43:49.308 +00:00 [INF] Now listening on: http://localhost:5097
+2022-02-01 03:43:49.309 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-01 03:43:49.310 +00:00 [INF] Hosting environment: Development
+2022-02-01 03:43:49.310 +00:00 [INF] Content root path: /workspace/GymManager.Web/GymManager.Web/
+2022-02-01 03:44:00.893 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5097/MembershipMembers/Search application/x-www-form-urlencoded 242
+2022-02-01 03:44:02.059 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web)'
+2022-02-01 03:44:02.160 +00:00 [INF] Route matched with {action = "Search", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(GymManager.Web.Models.MembershipRenewal) on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 03:44:04.348 +00:00 [INF] Entity Framework Core 6.0.1 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: ServerVersion 8.0.21-mysql 
+2022-02-01 03:44:05.084 +00:00 [INF] Executed DbCommand (101ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Date`, `m`.`MemberId`, `m`.`MembershipId`, `m`.`status`
+FROM `MemberMemberships` AS `m`
+2022-02-01 03:44:05.575 +00:00 [INF] Executing RedirectResult, redirecting to /MembershipMembers/index/0?SearchValue=hola&Members=Id%3A%201,%20%0AMember%3A%20,%20%0AMembership%3A%20.
+2022-02-01 03:44:05.593 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web) in 3418.283ms
+2022-02-01 03:44:05.594 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web)'
+2022-02-01 03:44:05.617 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5097/MembershipMembers/Search application/x-www-form-urlencoded 242 - 302 0 - 4729.5896ms
+2022-02-01 03:44:05.775 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/MembershipMembers/index/0?SearchValue=hola&Members=Id%3A%201,%20%0AMember%3A%20,%20%0AMembership%3A%20 - -
+2022-02-01 03:44:05.791 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)
+GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-01 03:44:05.868 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/MembershipMembers/index/0?SearchValue=hola&Members=Id%3A%201,%20%0AMember%3A%20,%20%0AMembership%3A%20 - - - 500 - text/html;+charset=utf-8 92.3218ms
+2022-02-01 03:45:49.215 +00:00 [INF] Application is shutting down...
+2022-02-01 03:46:09.734 +00:00 [WRN] Storing keys in a directory '/home/lugo/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2022-02-01 03:46:09.898 +00:00 [INF] User profile is available. Using '/home/lugo/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-02-01 03:46:11.242 +00:00 [INF] Now listening on: https://localhost:7097
+2022-02-01 03:46:11.242 +00:00 [INF] Now listening on: http://localhost:5097
+2022-02-01 03:46:11.242 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-01 03:46:11.242 +00:00 [INF] Hosting environment: Development
+2022-02-01 03:46:11.242 +00:00 [INF] Content root path: /workspace/GymManager.Web/GymManager.Web/
+2022-02-01 03:46:14.250 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/MembershipMembers/index/0?SearchValue=aaa&Members=Id%3A%201,%20%0AMember%3A%20,%20%0AMembership%3A%20 - -
+2022-02-01 03:46:15.249 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 03:46:15.327 +00:00 [INF] Route matched with {action = "Index", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(GymManager.Web.Models.MembershipRenewal) on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 03:46:25.392 +00:00 [INF] Executing ViewResult, running view Index.
+2022-02-01 03:46:26.167 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web) in 10828.035ms
+2022-02-01 03:46:26.170 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 03:46:26.177 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[GymManager.Core.Entities.MemberMembership]', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.List`1[GymManager.Core.Entities.EquipmentType]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method35(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore._Views_MembershipMembers_Index.ExecuteAsync() in /workspace/GymManager.Web/GymManager.Web/Views/MembershipMembers/Index.cshtml:line 32
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-01 03:46:26.270 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/MembershipMembers/index/0?SearchValue=aaa&Members=Id%3A%201,%20%0AMember%3A%20,%20%0AMembership%3A%20 - - - 500 - text/html;+charset=utf-8 12028.0319ms
+2022-02-01 03:46:39.975 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/MembershipMembers/ - -
+2022-02-01 03:46:40.025 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 03:46:40.026 +00:00 [INF] Route matched with {action = "Index", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(GymManager.Web.Models.MembershipRenewal) on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 03:46:40.030 +00:00 [INF] Executing ViewResult, running view Index.
+2022-02-01 03:46:40.054 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web) in 27.8377ms
+2022-02-01 03:46:40.055 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 03:46:40.055 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore._Views_Shared__EquipmentTypeList.ExecuteAsync() in /workspace/GymManager.Web/GymManager.Web/Views/Shared/_EquipmentTypeList.cshtml:line 18
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore._Views_MembershipMembers_Index.ExecuteAsync() in /workspace/GymManager.Web/GymManager.Web/Views/MembershipMembers/Index.cshtml:line 32
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-01 03:46:40.084 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/MembershipMembers/ - - - 500 - text/html;+charset=utf-8 108.9489ms
+2022-02-01 03:47:52.577 +00:00 [INF] Application is shutting down...
+2022-02-01 03:48:12.304 +00:00 [WRN] Storing keys in a directory '/home/lugo/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2022-02-01 03:48:12.374 +00:00 [INF] User profile is available. Using '/home/lugo/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-02-01 03:48:12.933 +00:00 [INF] Now listening on: https://localhost:7097
+2022-02-01 03:48:12.933 +00:00 [INF] Now listening on: http://localhost:5097
+2022-02-01 03:48:12.933 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-01 03:48:12.933 +00:00 [INF] Hosting environment: Development
+2022-02-01 03:48:12.934 +00:00 [INF] Content root path: /workspace/GymManager.Web/GymManager.Web/
+2022-02-01 03:49:02.915 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/MembershipMembers/ - -
+2022-02-01 03:49:03.918 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 03:49:04.004 +00:00 [INF] Route matched with {action = "Index", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(GymManager.Web.Models.MembershipRenewal) on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 03:49:14.029 +00:00 [INF] Executing ViewResult, running view Index.
+2022-02-01 03:49:14.241 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web) in 10223.8657ms
+2022-02-01 03:49:14.246 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 03:49:14.254 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.FileNotFoundException: Could not find file '/workspace/GymManager.Web/GymManager.Web/Views/Shared/_MembershipList.cshtml'.
+File name: '/workspace/GymManager.Web/GymManager.Web/Views/Shared/_MembershipList.cshtml'
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at Microsoft.Extensions.FileProviders.Physical.PhysicalFileInfo.CreateReadStream()
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.FileProviderRazorProjectItem.Read()
+   at Microsoft.AspNetCore.Razor.Language.RazorSourceDocument.ReadFrom(RazorProjectItem projectItem)
+   at Microsoft.AspNetCore.Razor.Language.DefaultRazorProjectEngine.CreateCodeDocumentCore(RazorProjectItem projectItem, Action`1 configureParser, Action`1 configureCodeGeneration)
+   at Microsoft.AspNetCore.Razor.Language.DefaultRazorProjectEngine.CreateCodeDocumentCore(RazorProjectItem projectItem)
+   at Microsoft.AspNetCore.Razor.Language.RazorProjectEngine.Process(RazorProjectItem projectItem)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.OnCacheMiss(String normalizedPath)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultRazorPageFactoryProvider.CreateFactory(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.CreateCacheResult(HashSet`1 expirationTokens, String relativePath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.LocatePageFromPath(String executingFilePath, String pagePath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.GetView(String executingFilePath, String viewPath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewEngines.CompositeViewEngine.GetView(String executingFilePath, String viewPath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore._Views_MembershipMembers_Index.ExecuteAsync() in /workspace/GymManager.Web/GymManager.Web/Views/MembershipMembers/Index.cshtml:line 32
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-01 03:49:14.382 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/MembershipMembers/ - - - 500 - text/html;+charset=utf-8 11472.8640ms
+2022-02-01 03:49:48.856 +00:00 [INF] Application is shutting down...
+2022-02-01 03:50:09.750 +00:00 [WRN] Storing keys in a directory '/home/lugo/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2022-02-01 03:50:09.829 +00:00 [INF] User profile is available. Using '/home/lugo/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-02-01 03:50:10.498 +00:00 [INF] Now listening on: https://localhost:7097
+2022-02-01 03:50:10.499 +00:00 [INF] Now listening on: http://localhost:5097
+2022-02-01 03:50:10.508 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-01 03:50:10.508 +00:00 [INF] Hosting environment: Development
+2022-02-01 03:50:10.508 +00:00 [INF] Content root path: /workspace/GymManager.Web/GymManager.Web/
+2022-02-01 03:50:22.032 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/MembershipMembers/ - -
+2022-02-01 03:50:23.198 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 03:50:23.282 +00:00 [INF] Route matched with {action = "Index", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(GymManager.Web.Models.MembershipRenewal) on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 03:50:34.068 +00:00 [INF] Executing ViewResult, running view Index.
+2022-02-01 03:50:34.911 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web) in 11616.8845ms
+2022-02-01 03:50:34.916 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 03:50:34.924 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore._Views_Shared__MemberShipList.ExecuteAsync() in /workspace/GymManager.Web/GymManager.Web/Views/Shared/_MemberShipList.cshtml:line 19
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore._Views_MembershipMembers_Index.ExecuteAsync() in /workspace/GymManager.Web/GymManager.Web/Views/MembershipMembers/Index.cshtml:line 32
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-01 03:50:35.025 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/MembershipMembers/ - - - 500 - text/html;+charset=utf-8 13003.5592ms
+2022-02-01 03:51:03.442 +00:00 [INF] Application is shutting down...
+2022-02-01 03:51:23.277 +00:00 [WRN] Storing keys in a directory '/home/lugo/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2022-02-01 03:51:23.342 +00:00 [INF] User profile is available. Using '/home/lugo/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-02-01 03:51:23.891 +00:00 [INF] Now listening on: https://localhost:7097
+2022-02-01 03:51:23.891 +00:00 [INF] Now listening on: http://localhost:5097
+2022-02-01 03:51:23.891 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-01 03:51:23.892 +00:00 [INF] Hosting environment: Development
+2022-02-01 03:51:23.892 +00:00 [INF] Content root path: /workspace/GymManager.Web/GymManager.Web/
+2022-02-01 04:06:34.255 +00:00 [INF] Application is shutting down...
+2022-02-01 04:14:50.307 +00:00 [WRN] Storing keys in a directory '/home/lugo/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2022-02-01 04:14:50.539 +00:00 [INF] User profile is available. Using '/home/lugo/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-02-01 04:14:52.349 +00:00 [INF] Now listening on: https://localhost:7097
+2022-02-01 04:14:52.350 +00:00 [INF] Now listening on: http://localhost:5097
+2022-02-01 04:14:52.352 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-01 04:14:52.354 +00:00 [INF] Hosting environment: Development
+2022-02-01 04:14:52.354 +00:00 [INF] Content root path: /workspace/GymManager.Web/GymManager.Web/
+2022-02-01 04:15:06.675 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/MembershipMembers/ - -
+2022-02-01 04:15:10.212 +00:00 [INF] Entity Framework Core 6.0.1 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: ServerVersion 8.0.21-mysql 
+2022-02-01 04:15:11.383 +00:00 [INF] Executed DbCommand (176ms) [Parameters=[@__p_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1
+2022-02-01 04:15:11.838 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`ClaimType`, `a`.`ClaimValue`, `a`.`UserId`
+FROM `AspNetUserClaims` AS `a`
+WHERE `a`.`UserId` = @__user_Id_0
+2022-02-01 04:15:11.877 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 04:15:11.898 +00:00 [INF] Route matched with {action = "Index", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 04:15:22.132 +00:00 [INF] Executing ViewResult, running view Index.
+2022-02-01 04:15:24.603 +00:00 [INF] Executed ViewResult - view Index executed in 12675.9484ms.
+2022-02-01 04:15:24.610 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web) in 12710.7612ms
+2022-02-01 04:15:24.610 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 04:15:24.645 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/MembershipMembers/ - - - 200 - text/html;+charset=utf-8 17981.8664ms
+2022-02-01 04:15:30.579 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css - -
+2022-02-01 04:15:30.596 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/css/custom.css - -
+2022-02-01 04:15:30.657 +00:00 [INF] Sending file. Request path: '/css/custom.css'. Physical path: '/workspace/GymManager.Web/GymManager.Web/wwwroot/css/custom.css'
+2022-02-01 04:15:30.657 +00:00 [INF] Sending file. Request path: '/bootstrap/css/bootstrap.min.css'. Physical path: '/workspace/GymManager.Web/GymManager.Web/wwwroot/bootstrap/css/bootstrap.min.css'
+2022-02-01 04:15:30.660 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css - - - 0 155845 text/css 80.5949ms
+2022-02-01 04:15:30.663 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/css/custom.css - - - 0 110 text/css 66.9983ms
+2022-02-01 04:15:30.665 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js.map - -
+2022-02-01 04:15:30.679 +00:00 [INF] The file /bootstrap/js/bootstrap.bundle.min.js.map was not modified
+2022-02-01 04:15:30.685 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js.map - - - 304 - text/plain 19.7165ms
+2022-02-01 04:15:31.309 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/favicon.ico - -
+2022-02-01 04:15:31.372 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/favicon.ico - - - 404 0 - 62.5561ms
+2022-02-01 04:15:33.754 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5097/MembershipMembers/Search application/x-www-form-urlencoded 242
+2022-02-01 04:15:33.762 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web)'
+2022-02-01 04:15:33.855 +00:00 [INF] Route matched with {action = "Search", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(GymManager.Web.Models.MembershipRenewal) on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 04:15:34.071 +00:00 [INF] Entity Framework Core 6.0.1 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: ServerVersion 8.0.21-mysql 
+2022-02-01 04:15:34.097 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Date`, `m`.`MemberId`, `m`.`MembershipId`, `m`.`status`
+FROM `MemberMemberships` AS `m`
+2022-02-01 04:15:34.167 +00:00 [INF] Executing ViewResult, running view Index.
+2022-02-01 04:15:34.677 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web) in 822.0784ms
+2022-02-01 04:15:34.679 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web)'
+2022-02-01 04:15:34.685 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[GymManager.Core.Entities.MemberMembership]', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.List`1[GymManager.Core.Entities.Membership]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method206(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore._Views_MembershipMembers_Index.ExecuteAsync() in /workspace/GymManager.Web/GymManager.Web/Views/MembershipMembers/Index.cshtml:line 32
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-01 04:15:34.761 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5097/MembershipMembers/Search application/x-www-form-urlencoded 242 - 500 - text/html;+charset=utf-8 1006.4573ms
+2022-02-01 04:15:35.738 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css.map - -
+2022-02-01 04:15:35.741 +00:00 [INF] The file /bootstrap/css/bootstrap.min.css.map was not modified
+2022-02-01 04:15:35.742 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css.map - - - 304 - text/plain 3.5732ms
+2022-02-01 04:15:35.845 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css - -
+2022-02-01 04:15:35.879 +00:00 [INF] Sending file. Request path: '/bootstrap/css/bootstrap.min.css'. Physical path: '/workspace/GymManager.Web/GymManager.Web/wwwroot/bootstrap/css/bootstrap.min.css'
+2022-02-01 04:15:35.880 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css - - - 200 155845 text/css 34.9899ms
+2022-02-01 04:15:37.317 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css - -
+2022-02-01 04:15:37.320 +00:00 [INF] Sending file. Request path: '/bootstrap/css/bootstrap.min.css'. Physical path: '/workspace/GymManager.Web/GymManager.Web/wwwroot/bootstrap/css/bootstrap.min.css'
+2022-02-01 04:15:37.320 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css - - - 0 155845 text/css 3.7446ms
+2022-02-01 04:17:08.096 +00:00 [INF] Application is shutting down...
+2022-02-01 04:17:28.842 +00:00 [WRN] Storing keys in a directory '/home/lugo/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2022-02-01 04:17:28.934 +00:00 [INF] User profile is available. Using '/home/lugo/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-02-01 04:17:29.814 +00:00 [INF] Now listening on: https://localhost:7097
+2022-02-01 04:17:29.814 +00:00 [INF] Now listening on: http://localhost:5097
+2022-02-01 04:17:29.815 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-01 04:17:29.815 +00:00 [INF] Hosting environment: Development
+2022-02-01 04:17:29.815 +00:00 [INF] Content root path: /workspace/GymManager.Web/GymManager.Web/
+2022-02-01 04:17:33.131 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/MembershipMembers/ - -
+2022-02-01 04:17:34.093 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 04:17:34.114 +00:00 [INF] Route matched with {action = "Index", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 04:17:44.067 +00:00 [INF] Executing ViewResult, running view Index.
+2022-02-01 04:17:46.574 +00:00 [INF] Executed ViewResult - view Index executed in 12440.6289ms.
+2022-02-01 04:17:46.578 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web) in 12463.1977ms
+2022-02-01 04:17:46.579 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 04:17:46.592 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/MembershipMembers/ - - - 200 - text/html;+charset=utf-8 13469.1404ms
+2022-02-01 04:17:54.165 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js.map - -
+2022-02-01 04:17:54.229 +00:00 [INF] The file /bootstrap/js/bootstrap.bundle.min.js.map was not modified
+2022-02-01 04:17:54.236 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/js/bootstrap.bundle.min.js.map - - - 304 - text/plain 71.3777ms
+2022-02-01 04:17:54.304 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css - -
+2022-02-01 04:17:54.317 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/css/custom.css - -
+2022-02-01 04:17:54.375 +00:00 [INF] Sending file. Request path: '/css/custom.css'. Physical path: '/workspace/GymManager.Web/GymManager.Web/wwwroot/css/custom.css'
+2022-02-01 04:17:54.376 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/css/custom.css - - - 0 110 text/css 59.0581ms
+2022-02-01 04:17:54.379 +00:00 [INF] Sending file. Request path: '/bootstrap/css/bootstrap.min.css'. Physical path: '/workspace/GymManager.Web/GymManager.Web/wwwroot/bootstrap/css/bootstrap.min.css'
+2022-02-01 04:17:54.380 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css - - - 0 155845 text/css 75.8335ms
+2022-02-01 04:17:55.850 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css - -
+2022-02-01 04:17:55.862 +00:00 [INF] Sending file. Request path: '/bootstrap/css/bootstrap.min.css'. Physical path: '/workspace/GymManager.Web/GymManager.Web/wwwroot/bootstrap/css/bootstrap.min.css'
+2022-02-01 04:17:55.863 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css - - - 200 155845 text/css 12.5057ms
+2022-02-01 04:17:57.927 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css.map - -
+2022-02-01 04:17:57.932 +00:00 [INF] The file /bootstrap/css/bootstrap.min.css.map was not modified
+2022-02-01 04:17:57.932 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/bootstrap/css/bootstrap.min.css.map - - - 304 - text/plain 5.6260ms
+2022-02-01 04:18:06.831 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5097/MembershipMembers/Search application/x-www-form-urlencoded 243
+2022-02-01 04:18:06.844 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web)'
+2022-02-01 04:18:06.923 +00:00 [INF] Route matched with {action = "Search", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(GymManager.Web.Models.MembershipRenewal) on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 04:18:09.584 +00:00 [INF] Entity Framework Core 6.0.1 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: ServerVersion 8.0.21-mysql 
+2022-02-01 04:18:10.380 +00:00 [INF] Executed DbCommand (141ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Date`, `m`.`MemberId`, `m`.`MembershipId`, `m`.`status`
+FROM `MemberMemberships` AS `m`
+2022-02-01 04:18:10.581 +00:00 [INF] Executing ViewResult, running view Index.
+2022-02-01 04:18:10.999 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web) in 4076.4332ms
+2022-02-01 04:18:11.001 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web)'
+2022-02-01 04:18:11.007 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore._Views_Shared__MembershipMemberList.ExecuteAsync() in /workspace/GymManager.Web/GymManager.Web/Views/Shared/_MembershipMemberList.cshtml:line 21
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore._Views_MembershipMembers_Index.ExecuteAsync() in /workspace/GymManager.Web/GymManager.Web/Views/MembershipMembers/Index.cshtml:line 32
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-01 04:18:11.071 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5097/MembershipMembers/Search application/x-www-form-urlencoded 243 - 500 - text/html;+charset=utf-8 4239.0548ms
+2022-02-01 04:18:49.815 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5097/MembershipMembers/Search application/x-www-form-urlencoded 243
+2022-02-01 04:18:49.829 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web)'
+2022-02-01 04:18:49.833 +00:00 [INF] Route matched with {action = "Search", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(GymManager.Web.Models.MembershipRenewal) on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 04:18:49.984 +00:00 [INF] Entity Framework Core 6.0.1 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: ServerVersion 8.0.21-mysql 
+2022-02-01 04:18:50.094 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Date`, `m`.`MemberId`, `m`.`MembershipId`, `m`.`status`
+FROM `MemberMemberships` AS `m`
+2022-02-01 04:18:50.360 +00:00 [INF] Executing ViewResult, running view Index.
+2022-02-01 04:18:50.415 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web) in 581.389ms
+2022-02-01 04:18:50.418 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Search (GymManager.Web)'
+2022-02-01 04:18:50.438 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore._Views_Shared__MembershipMemberList.ExecuteAsync() in /workspace/GymManager.Web/GymManager.Web/Views/Shared/_MembershipMemberList.cshtml:line 21
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore._Views_MembershipMembers_Index.ExecuteAsync() in /workspace/GymManager.Web/GymManager.Web/Views/MembershipMembers/Index.cshtml:line 32
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-01 04:18:50.475 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5097/MembershipMembers/Search application/x-www-form-urlencoded 243 - 500 - text/html;+charset=utf-8 659.8485ms
+2022-02-01 04:27:38.864 +00:00 [INF] Application is shutting down...
+2022-02-01 04:30:39.858 +00:00 [WRN] Storing keys in a directory '/home/lugo/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2022-02-01 04:30:40.012 +00:00 [INF] User profile is available. Using '/home/lugo/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-02-01 04:30:41.308 +00:00 [INF] Now listening on: https://localhost:7097
+2022-02-01 04:30:41.308 +00:00 [INF] Now listening on: http://localhost:5097
+2022-02-01 04:30:41.309 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-01 04:30:41.309 +00:00 [INF] Hosting environment: Development
+2022-02-01 04:30:41.309 +00:00 [INF] Content root path: /workspace/GymManager.Web/GymManager.Web/
+2022-02-01 04:30:50.640 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5097/MembershipMembers/ - -
+2022-02-01 04:30:51.711 +00:00 [INF] Executing endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 04:30:51.759 +00:00 [INF] Route matched with {action = "Index", controller = "MembershipMembers", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.MembershipMembers (GymManager.Web).
+2022-02-01 04:30:53.830 +00:00 [INF] Entity Framework Core 6.0.1 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.1' with options: ServerVersion 8.0.21-mysql 
+2022-02-01 04:30:55.044 +00:00 [INF] Executed DbCommand (188ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Date`, `m`.`MemberId`, `m`.`MembershipId`, `m`.`status`
+FROM `MemberMemberships` AS `m`
+WHERE `m`.`Id` = @__p_0
+LIMIT 1
+2022-02-01 04:31:05.931 +00:00 [INF] Executing ViewResult, running view Index.
+2022-02-01 04:31:06.094 +00:00 [INF] Executed action GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web) in 14322.5251ms
+2022-02-01 04:31:06.095 +00:00 [INF] Executed endpoint 'GymManager.Web.Controllers.MembershipMembers.Index (GymManager.Web)'
+2022-02-01 04:31:06.107 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore._Views_MembershipMembers_Index.ExecuteAsync() in /workspace/GymManager.Web/GymManager.Web/Views/MembershipMembers/Index.cshtml:line 30
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-01 04:31:06.217 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5097/MembershipMembers/ - - - 500 - text/html;+charset=utf-8 15584.7987ms
+2022-02-01 04:45:45.720 +00:00 [INF] Application is shutting down...
