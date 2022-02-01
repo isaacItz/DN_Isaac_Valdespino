@@ -11,9 +11,9 @@ namespace GymManager.ApplicationServices.MemberMemberships
 {
     public class MemberMembershipsAppService : IMemberMembershipsAppService
     {
-        private readonly IRepository<int, MemberMembership> _repository;
+        private readonly MemberMembershipsRepository _repository;
 
-        public MemberMembershipsAppService(IRepository<int, MemberMembership> repository) {
+        public MemberMembershipsAppService(MemberMembershipsRepository repository) {
             _repository = repository;
         }
 
@@ -40,6 +40,10 @@ namespace GymManager.ApplicationServices.MemberMemberships
         public async Task EditMemberMembershipAsync(MemberMembership memberMembership)
         {
             await _repository.UpdateAsync(memberMembership);
+        }
+
+        public async Task<List<MemberMembership>> GetMatches(string text) {
+            return await _repository.GetMatches(text);
         }
     }
 }

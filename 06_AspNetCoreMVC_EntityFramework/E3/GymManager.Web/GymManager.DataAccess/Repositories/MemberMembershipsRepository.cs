@@ -31,11 +31,17 @@ namespace GymManager.DataAccess.Repositories
         //    return member;
         //}
 
-        //public async override Task<IEnumeralbe<Mer> GetMatches(string text) {
-        //    var list = from m in Context.MemberMemberships
-        //        join mm in Context.MemberMemberships on m.Id equals mm.Member.Id
-        //        join ms in Context.MemberMemberships on mm.MemberShipType.Id equals ms.Id
-
-        //}
+        public async Task<List<MemberMembership>> GetMatches(string text) {
+            var list = (from mm in Context.MemberMemberships
+                //join m in Context.Members on mm.Member.Id equals m.Id 
+                //join ms in Context.Memberships on mm.Membership.Id equals ms.Id
+                select new MemberMembership {
+                    Id =  mm.Id,
+                    Date = mm.Date,
+                    Membership = mm.Membership,
+                    Member = mm.Member
+                }).Where(x => (x.Member.Name + " " + x.Member.LastName).Contains(text)).ToList();
+            return list;
+        }
     }
 }

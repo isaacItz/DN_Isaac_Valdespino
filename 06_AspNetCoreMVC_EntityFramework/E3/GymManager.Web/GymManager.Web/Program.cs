@@ -42,7 +42,7 @@ builder.Services.AddTransient<IMemberMembershipsAppService, MemberMembershipsApp
 builder.Services.AddTransient<IMenuAppService, MenuAppService>();
 builder.Services.AddTransient<IEquipmentTypesAppService, EquipmentTypesAppService>();
 builder.Services.AddTransient<IRepository<int, Member>, MembersRepository>();
-builder.Services.AddTransient<IRepository<int, MemberMembership>, MemberMembershipsRepository>();
+builder.Services.AddTransient<MemberMembershipsRepository>();
 builder.Services.AddTransient<IRepository<int, Membership>, MembershipsRepository>();
 builder.Services.AddTransient<IRepository<int, EquipmentType>, Repository<int, EquipmentType>>();
 var app = builder.Build();

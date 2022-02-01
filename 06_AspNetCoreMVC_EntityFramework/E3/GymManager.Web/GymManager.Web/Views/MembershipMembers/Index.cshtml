@@ -17,7 +17,6 @@
     
     <form asp-action="Search">
         <div class="row">
-
             <div class="mb-3">
                 <label asp-for="SearchValue" class="form-label">Name</label>
                 <input type="text" class="form-control" asp-for="SearchValue">
@@ -27,8 +26,7 @@
             <button type="submit" class="btn btn-primary mb-3">Search</button>
         </div>
     </form>
-    @if(Model.Members != null) {
-        Console.WriteLine("entramos por que no es null" + Model);
-        await Html.PartialAsync("~/Views/Shared/_MembershipMemberList.cshtml", Model.Members);
+    @if(Model != null) {
+        @await Html.PartialAsync("~/Views/Shared/_MembershipMemberList.cshtml", Model.Members)
     }
 </div>

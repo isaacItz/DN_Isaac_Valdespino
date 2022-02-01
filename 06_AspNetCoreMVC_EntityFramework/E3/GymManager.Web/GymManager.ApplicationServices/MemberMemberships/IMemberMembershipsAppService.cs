@@ -18,5 +18,7 @@ namespace GymManager.ApplicationServices.MemberMemberships
         Task<MemberMembership> GetMemberMembershipAsync(int memberMembershipId);
 
         Task EditMemberMembershipAsync(MemberMembership memberMembership);
+
+        Task<List<MemberMembership>> GetMatches(string text);
     }
 }

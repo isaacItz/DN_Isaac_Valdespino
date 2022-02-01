@@ -76,5 +76,6 @@ namespace GymManager.DataAccess.Repositories
             _context.Remove<TEntity>(entity);
             await _context.SaveChangesAsync();
         }
+
     }
 }

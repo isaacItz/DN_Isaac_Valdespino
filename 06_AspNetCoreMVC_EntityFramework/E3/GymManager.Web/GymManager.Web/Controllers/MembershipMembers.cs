@@ -27,7 +27,6 @@ namespace GymManager.Web.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var x = await _membershipsAppService.GetMemberMembershipAsync(1);
             return View(null);
         }
 
@@ -38,11 +37,10 @@ namespace GymManager.Web.Controllers
 
         [HttpPost]
         public async Task<IActionResult> Search(MembershipRenewal membership) {
-            Console.WriteLine(membership);
-            List<MemberMembership> list = await _membershipsAppService.GetMemberMembershipsAsync();
-            foreach (var i in list) {
-                Console.WriteLine(i);
-            }
+            List<MemberMembership> list = await _membershipsAppService.GetMatches(membership.SearchValue);
+            //foreach (var i in list) {
+                //Console.WriteLine(i);
+            //}
             membership.Members = list;
             return View("Index", membership);
         }
